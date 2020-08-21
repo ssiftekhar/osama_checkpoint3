@@ -5,7 +5,9 @@ def add_point():
     calls = 0
     meetings = 0
     sales = 0
-    for key in Jordan_belfort:
+    total_score = []
+    for key in Jordan_belfort.items():
+        total_score.append(calls+meetings+sales)
         if calls:
             calls = calls + 10
         elif meetings:
