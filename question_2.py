@@ -9,3 +9,5 @@ def to_camel_case(text):
         elif(text[i - 1] != ' '): 
             text1 += text[i]  
     print(text1)
+
+print(to_camel_case('denne testen gikk ikke bra'))
